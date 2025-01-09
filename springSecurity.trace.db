@@ -1,0 +1,6 @@
+2024-11-05 13:52:02.594799-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]selec * from usuarios"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+selec * from usuarios [42001-224]
+2024-11-05 14:44:49.653641-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found; SQL statement:
+select * from usuario [42102-224]
